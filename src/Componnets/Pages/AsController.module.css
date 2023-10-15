@@ -1,0 +1,52 @@
+/* AsController.module.css */
+
+/* Container for the authentication component and toggle button */
+.asControllerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style for the toggle button */
+  .toggleButton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .toggleButton:hover {
+    background-color: #1e75b8;
+  }
+  
+  /* Style for the authentication components (SignIn and SignUp) */
+  .authComponent {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the buttons inside the authentication components */
+  .authButton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .authButton:hover {
+    background-color: #1e75b8;
+  }
+  

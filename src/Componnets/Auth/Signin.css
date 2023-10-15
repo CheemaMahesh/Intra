@@ -1,0 +1,36 @@
+
+.Sign-in-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Style for the input fields */
+  .Sign-in-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the sign-in button */
+  .Sign-in-container button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .Sign-in-container button:hover {
+    background-color: #1e75b8;
+  }
+  
