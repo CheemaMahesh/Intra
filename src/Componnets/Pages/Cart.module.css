@@ -11,6 +11,9 @@
       flex-wrap: wrap;
       justify-content: space-around;
   }
+  .cartHome::-webkit-scrollbar{
+    display:none;
+  }
   
   .cartImgs{
       height:100px;
@@ -89,3 +92,102 @@
       background-color: red;
       background-image: linear-gradient(to right,red,gold);
     }
+    /* ============================================================ */
+
+
+    /* Add this CSS to your component or use an external CSS file */
+/* You can customize the styles as needed */
+
+/* Container for the cart items */
+.cartHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+/* Style for the cart item container */
+.cartContainer {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+/* Style for the cart item title */
+.cartContainer h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Style for the cart item image */
+.cartImgs {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+/* Style for the cart item price */
+.cartContainer h5 {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Style for the quantity and remove button */
+.cartContainer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* Style for the Remove button */
+.remove {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Style for the right box containing email, subtotal, and Buy Now button */
+.rightBox {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 250px;
+}
+
+/* Style for the box title */
+.boxTitle {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Style for the Subtotal section */
+.subtotal {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* Style for the Buy Now button */
+.buyButton {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.buyButton:hover {
+  background-color: #1e75b8;
+}

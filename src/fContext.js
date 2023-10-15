@@ -320,6 +320,7 @@ useEffect(() => {
             handleSearch,
             cancleOrder,
             blogs,
+            setProducts
 
         }}>
             {children}

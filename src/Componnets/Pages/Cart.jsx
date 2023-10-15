@@ -7,6 +7,7 @@ const Cart = () => {
 
   return (
     <>
+    <h1>Your Cart</h1>
      {cartItemList ? (
       
       <div className={styles.cartHead}><div className={styles.cartHome}>
