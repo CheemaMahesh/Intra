@@ -1,0 +1,91 @@
+.cartHead{
+    display: flex;
+    justify-content: space-around;
+  }
+  .cartHome{
+      height:100vh;
+      width:70vw;
+      background-color: rgb(237, 243, 243);
+      overflow: scroll;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  
+  .cartImgs{
+      height:100px;
+      width:100px;
+  }
+  .cartContainer{
+      margin-top: 12vh;
+      height: 40%;
+      width: 30%;
+      background-color: #fff;
+      border: 1px solid #e0e0e0;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .rightBox{
+    width:20vw;
+    background-color: #f2f2f2;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  /* ================================================== */
+  /* YourComponent.module.css */
+  
+  
+  
+  .boxTitle {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .subtotal {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .buyButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .buyButton:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+     .remove{
+      background-color: rgb(237, 48, 15);
+      /* outline: none; */
+      border: none;
+      font-size: 1.2em;
+      font-weight: bold;
+  
+    }
+    .remove:hover{
+      background-color: red;
+      background-image: linear-gradient(to right,red,gold);
+    }
