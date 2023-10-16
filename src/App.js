@@ -6,9 +6,11 @@ import AuthControler from "./Componnets/Pages/AuthController"
 function App() {
   return (
     
-      <FuncContext>
+      <div className='app-body'>
+        <FuncContext>
 <AuthControler/>
 </FuncContext>
+      </div>
    
   );
 }

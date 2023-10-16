@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+.app-body{
+  background-color: rgb(6, 205, 236);
+  background-image: linear-gradient(to right ,rgb(6, 205, 236),rgb(5, 245, 233) );
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

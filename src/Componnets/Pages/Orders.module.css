@@ -1,6 +1,7 @@
 /* Orders.module.css */
 
 .orders {
+
     width: 100vw;
     margin: 20px;
     padding: 20px;
@@ -23,7 +24,7 @@
     flex-wrap: wrap;
     gap: 20px; /* Adjust the gap between items */
     justify-content: flex-start; /* Adjust alignment as needed */
-    height: 80vh;
+    /* height: 80vh; */
     width: 100vw;
     margin-top: 20px; /* Add margin to separate title and items */
   }
