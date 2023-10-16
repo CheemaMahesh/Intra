@@ -1,0 +1,142 @@
+.Nav{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(12, 186, 230);
+    /* background-color: rgba(0,0,0,0,12); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.header{
+    height:10vh;
+    width: 80%;
+    border-bottom: 1px solid white;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.title{
+    width: 40%;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.title p{
+    margin-left: 10px;
+    font-family: cursive;
+    /* font-style: italic; */
+    font-weight: bold;
+    color:white;
+}
+.title img{
+    height:50%;
+    width: 15%;
+    border-radius: 50%;
+}
+.searchCartProfile{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* Add these styles to your Nav.module.css or equivalent CSS file */
+
+/* ... Other styles ... */
+
+.searchForm {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchInput {
+    width: 0; /* Start with zero width */
+    border: none;
+    padding: 0;
+    margin: 0;
+    transition: width 0.3s; /* Add a smooth transition */
+  }
+  
+  .searchButton {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s; /* Add a smooth transition */
+  }
+  
+  .searchButton i {
+    font-size: 1.2rem;
+  }
+  
+  /* Expand the input field on hover */
+  
+  
+  /* Change button background color on hover */
+  .searchDiv:hover .searchButton {
+    background: rgba(0, 0, 0, 0.1); /* Add your desired background color */
+  }
+  
+  /* ... Other styles ... */
+  
+  /* Add these styles to your Nav.module.css or equivalent CSS file */
+
+/* ... Other styles ... */
+
+.searchForm {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchInput {
+    width: 0;
+    height: 36px; /* Adjust the input height as needed */
+    border: none;
+    padding: 0;
+    margin: 0;
+    transition: width 0.3s; /* Add a smooth transition */
+    border-radius: 4px; /* Add some border-radius for a rounded look */
+    padding-left: 10px; /* Add some padding to the left for better appearance */
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  
+  .searchButton {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s; /* Add a smooth transition */
+    border-radius: 4px; /* Match the border radius with the input */
+  }
+  
+  .searchButton i {
+    font-size: 1.2rem;
+    font-size: 2rem;
+
+  }
+  
+  /* Expand the input field on hover */
+  .searchDiv:hover .searchInput {
+    width: 180px; /* Adjust the width as needed */
+  }
+  
+  /* Change button background color on hover */
+  .searchDiv:hover .searchButton {
+    background: rgba(0, 0, 0, 0.1); /* Add your desired background color */
+  }
+  
+  /* ... Other styles ... */
+  
+  .notification{
+    cursor: pointer;
+    font-size: 2rem;
+  }
+
+  .profile{
+    cursor: pointer;
+    font-size: 2rem;
+  }
