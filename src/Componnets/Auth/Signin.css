@@ -1,6 +1,6 @@
 
 .Sign-in-container {
-    background-color: #f9f9f9;
+    background-color: #dbb770;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -21,17 +21,19 @@
   
   /* Style for the sign-in button */
   .Sign-in-container button {
-    background-color: #3498db;
+    background-color: #09c7ba;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
   }
   
   .Sign-in-container button:hover {
-    background-color: #1e75b8;
+    background-color: #06abdd;
   }
   
 
